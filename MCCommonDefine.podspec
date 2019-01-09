@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MCCommonDefine"
-  s.version      = "0.0.1"
+  s.version      = "0.6.0"
   s.summary      = "MCCommonDefine 简介"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/macong0420/MCCommonDefine.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/macong0420/MCCommonDefine.git",
+                     :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,10 +92,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-#s.source_files  = "Commons", "Commons/**/*.{h,m}"
-  s.source_files  = "Classes", "Classes/*.{h,m}"
+#s.source_files  = "MCCommonDefine"
+ s.source_files  = "Classes", "Classes/**/*.{h,m}"
 #s.source_files = "Pod/Classes/**/*"
-  s.exclude_files = "Classes/Exclude"
+#s.exclude_files = "Classes/Exclude"
 
 #b7d042e..86485b8
 
